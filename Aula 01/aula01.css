@@ -48,3 +48,17 @@ div.quadradao {
     
     cursor: pointer;
 }
+
+div#topo:hover {
+    color: brown;
+    background-color: azure;
+    border: 2px solid brown;
+}
+
+div.quadrado:hover{
+    border: 5px dashed;
+}
+
+div.quadradao:hover {
+    border: 5px solid;
+}
