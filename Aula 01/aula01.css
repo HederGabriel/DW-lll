@@ -1,0 +1,50 @@
+div#topo {
+    width: 100%;
+    height: 100px;
+
+    background-color: brown;
+
+    color: azure;
+    font-size: 40px;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+div.quadrado {
+    width: 100px;
+    height: 100px;
+
+    background-color: khaki;
+
+    float: left;
+
+    margin-left: 5px;
+    margin-top: 5px;
+    
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: brown;
+    text-align: center;
+    font-size: 30px;
+
+    border: 1px solid;
+}
+
+div.quadradao {
+    width: 250px;
+    height: 250px;
+
+    background-color: orange;
+    
+    float: left;
+
+    margin-left: 5px;
+    margin-top: 5px;
+
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 40px;
+    color: brown;
+    text-align: right;
+    border: 2px solid brown;
+    
+    cursor: pointer;
+}
