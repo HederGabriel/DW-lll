@@ -40,3 +40,22 @@ var elemento = 7
 console.log(lista.indexOf(elemento))
 */
 
+
+/* Percorrer todo o Vetor
+var lista =[1,2,3,4,5,6,7,8,9,21, 32,41,56,432,890]
+
+for(var i=0; i<lista.length; i++){
+    console.log(lista[i])
+}
+*/
+
+/* Somar todo o Vetor
+var lista =[1,2,3,4,5,6,7,8,9,21, 32,41,56,432,890]
+
+var soma =0
+
+for(var i=0; i<lista.length; i++){
+    soma+=lista[i]
+}
+console.log("A soma dos valores é: "+soma)
+*/
