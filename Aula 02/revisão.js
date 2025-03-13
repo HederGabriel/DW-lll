@@ -40,7 +40,6 @@ var elemento = 7
 console.log(lista.indexOf(elemento))
 */
 
-
 /* Percorrer todo o Vetor
 var lista =[1,2,3,4,5,6,7,8,9,21, 32,41,56,432,890]
 
