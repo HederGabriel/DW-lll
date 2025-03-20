@@ -1,0 +1,18 @@
+input {
+    margin: 5px 0 5px 0;
+}
+
+#res{
+    width: 200px;
+    height: 200px;
+    
+    font-size: 30px;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+    border: 2px solid black;
+
+    margin: 5px 0 5px 47px;
+
+}
+
