@@ -1,6 +1,18 @@
 body {
     font-family: Arial, sans-serif;
     margin: 20px;
+    background-color: #f5f5dc;
+}
+
+main {
+    max-width: 400px;
+    margin: 0 auto;
+    border: 1px solid #ccc;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center; /* Center content inside main */
 }
 
 label {
@@ -11,25 +23,33 @@ label {
 input {
     margin: 5px 0;
     padding: 5px;
-    width: 100px;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
 }
 
 button {
-    margin: 10px 0;
-    padding: 5px 10px;
+    margin: 10px auto; /* Center the button */
+    padding: 15px 20px; /* Increase the button size */
     cursor: pointer;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px; /* Increase font size */
+    font-family: 'Courier New', Courier, monospace; /* Change font family */
+}
+
+button:hover {
+    background-color: #0056b3;
 }
 
 #res {
     margin-top: 20px;
-    
     padding: 10px;
-
     border: 1px solid #ccc;
-
     background-color: #f9f9f9;
-
-    width: 250px;
-
+    width: 95%;
     text-align: center;
+    border-radius: 5px;
 }

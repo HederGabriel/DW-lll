@@ -8,16 +8,17 @@
     <script src="dom2.js"></script>
 </head>
 <body>
-    <label for="peso">Peso:</label>
-    <input type="text" id="peso" name="peso" autocomplete="off" placeholder="Digite seu peso">
-    <br>
-
-    <label for="altura">Altura:</label>
-    <input type="text" id="altura" name="altura" autocomplete="off" placeholder="Digite sua altura">
-    <br>
-
-    <button onclick="imc()">Calcular</button>
-
-    <div id="res"></div>
+    <main>
+        <label for="peso">Peso:</label>
+        <input type="text" id="peso" name="peso" autocomplete="off" placeholder="Digite seu peso">
+        <br>
+        <label for="altura">Altura:</label>
+        <input type="text" id="altura" name="altura" autocomplete="off" placeholder="Digite sua altura">
+        <br>
+        <button onclick="imc()">Calcular</button>
+        <div id="res">
+            <p>...</p>
+        </div>
+    </main>
 </body>
 </html>
