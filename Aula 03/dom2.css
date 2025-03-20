@@ -12,7 +12,7 @@ main {
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    text-align: center; /* Center content inside main */
+    text-align: center; 
 }
 
 label {
@@ -29,15 +29,15 @@ input {
 }
 
 button {
-    margin: 10px auto; /* Center the button */
-    padding: 15px 20px; /* Increase the button size */
+    margin: 10px auto; 
+    padding: 15px 20px;
     cursor: pointer;
     background-color: #007BFF;
     color: white;
     border: none;
     border-radius: 5px;
-    font-size: 18px; /* Increase font size */
-    font-family: 'Courier New', Courier, monospace; /* Change font family */
+    font-size: 18px; 
+    font-family: 'Courier New', Courier, monospace; 
 }
 
 button:hover {
