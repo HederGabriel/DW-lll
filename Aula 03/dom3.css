@@ -57,7 +57,8 @@ button:hover {
 #circulo {
     margin: 20px auto;
     border-radius: 50%;
-    background-color: #000;
+    background-color: #ffffff00;
+    border: 2px solid black;
     width: 200px;
     height: 200px;
 }
