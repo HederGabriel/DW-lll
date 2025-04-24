@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: aliceblue;
+}
+
+.conteudo {
+    height: 100vh;
+    background-color: rgb(84, 84, 84);
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.quadro {
+    width: 30%;
+    height: 30%;
+    background-color: azure;
+    margin-left: 2%;
+    margin-top: 8%;
+    display: flex;
+    flex-direction: column;
+}
+
+.quadro input{
+    width: 75%;
+    height: 15%;
+    margin: 0 auto;
+    margin-top: 5%;
+    color: black;
+    font-size: 25px;
+    text-align: center;
+}
+
+.quadro button{
+    width: 80%;
+    height: 20%;
+    background-color: orange;
+    color: white;
+    font-size: 30px;
+    margin: 5% auto 0 auto;
+    cursor: pointer;
+}
+
+.quadro button:hover{
+    background-color: blue;
+}
+
+.quadro h1 {
+    text-align: center;
+    color: orange;
+    margin-top: 3%;
+}
+
+.quadro h2 {
+    text-align: center;
+    color: orange;
+    margin-top: 12%;
+    font-size: 40px;
+}
