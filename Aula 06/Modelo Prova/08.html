@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<body>
+  <input type="text" id="corInput">
+  <button onclick="verificarCor()">Verificar</button>
+  <p id="resultado">Texto</p>
+
+  <script>
+    function verificarCor() {
+      let valor = document.getElementById("corInput").value.toLowerCase();
+      if (valor === "azul") {
+        document.getElementById("resultado").style.backgroundColor = "blue";
+      } else {
+        document.getElementById("resultado").style.backgroundColor = "red";
+      }
+    }
+  </script>
+</body>
+</html>
